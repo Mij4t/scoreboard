@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+}
+
+h3 {
+    font-family: Verdana;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+    margin-bottom: 20px;
+}
+
+.team-score {
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: #080001;
+}
+
+.team-points-text {
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 90px;
+    text-align: center;
+    color: #F94F6D;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.add-points-btns {
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-points {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    text-align: center;
+    color: #9AABD8;
+    background-color: #1B244A;
+}
